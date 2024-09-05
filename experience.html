@@ -7,79 +7,94 @@
     <title>Experience</title>
     <style>
         body {
-            font-family: 'Helvetica Neue', sans-serif;
+            font-family: 'Georgia', serif;
             margin: 0;
             padding: 0;
-            background-color: #f0f0f5;
+            background-color: #ffffff;
             color: #333;
+            line-height: 1.6;
         }
         header {
-            background-color: #b3cde0;
-            color: #333;
-            padding: 20px;
             text-align: center;
-            font-size: 2em;
+            margin-top: 30px;
+            margin-bottom: 30px;
         }
+        header h1 {
+            font-size: 2.5em;
+            font-weight: normal;
+            margin: 0;
+        }
+
         nav {
             display: flex;
             justify-content: center;
-            background-color: #cfe2f3;
-            padding: 10px 0;
-            margin-bottom: 30px;
+            margin-bottom: 40px;
         }
         nav a {
-            color: #333;
+            color: #0000EE;
             padding: 10px 15px;
             text-decoration: none;
-            font-size: 1.2em;
+            font-size: 1.1em;
         }
         nav a:hover {
-            background-color: #dfeef8;
-            border-radius: 5px;
+            text-decoration: underline;
         }
+
         .content {
             width: 60%;
-            max-width: 900px;
+            max-width: 800px;
             margin: 0 auto;
             padding: 20px;
-            background-color: #f0f0f5;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
+
         .section {
             margin-bottom: 40px;
         }
+
+        .section h2 {
+            font-size: 1.8em;
+            margin-bottom: 15px;
+        }
+
         .experience-list {
             list-style-type: none;
             padding: 0;
         }
+
         .experience-item {
             margin-bottom: 15px;
-            padding: 15px;
-            background-color: #eaf3fc;
-            border-left: 4px solid #333;
-            border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
         }
+
+        .experience-item strong {
+            font-size: 1.1em;
+            color: #000;
+        }
+
         footer {
-            background-color: #b3cde0;
-            color: #333;
             text-align: center;
-            padding: 10px;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
+            margin-top: 50px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            border-top: 1px solid #ddd;
+        }
+        footer a {
+            color: #0000EE;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        footer a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
 
 <header>
-    Experience
+    <h1>Experience</h1>
 </header>
 
 <nav>
-    <a href="index.html">About Me</a>
+    <a href="index.html">Home</a>
     <a href="experience.html">Experience</a>
     <a href="resume.html">Resume</a>
 </nav>
@@ -120,7 +135,9 @@
 </div>
 
 <footer>
-    &copy; 2024 My Personal Website. All rights reserved.
+    <a href="mailto:your-email@example.com">Email</a>
+    <a href="https://twitter.com/yourhandle" target="_blank">Twitter</a>
+    <a href="https://scholar.google.com/citations?user=your-id" target="_blank">Google Scholar</a>
 </footer>
 
 </body>
