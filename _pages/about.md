@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm an undergraduate student at the University of Illinois Urbana-Champaign, studying Computer Science with a focus on AI, NLP, and Data Mining. My research interests lie around the application of multi-modal AI to solve real-world problems.
+I'm an undergraduate student at the University of Illinois Urbana-Champaign, studying Computer Science with a focus on AI, NLP, and Data Mining. My research interests lie around the applications of multi-modal AI to solve real-world problems.
 
 Currently, I am working with Prof. Jiawei Han on developing tools that enhance causal reasoning and event extraction using LLMs, with a focus on improving their ability to capture temporal and causal relationships in real-world datasets. In parallel, I collaborate with Prof. Koustuv Saha on exploring the impact of LLMs in the workplace. My recent work explores how advanced AI tools can better understand complex information, extract meaningful insights, and assist in real-world decision-making.
 
