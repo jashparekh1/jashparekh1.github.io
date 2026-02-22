@@ -158,6 +158,16 @@
     color: #1a3a6b;
     text-decoration: underline;
   }
+
+  .coauthor-link {
+    color: #222;
+    text-decoration: underline dotted;
+    text-underline-offset: 2px;
+
+    &:hover {
+      color: #222;
+    }
+  }
 }
 
 .pub-venue {
