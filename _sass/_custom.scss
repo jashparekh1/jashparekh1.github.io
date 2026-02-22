@@ -67,18 +67,6 @@
 }
 
 /* ==========================================================================
-   Visitor globe
-   ========================================================================== */
-
-.masthead__globe {
-  margin-left: auto;
-  display: flex;
-  align-items: center;
-  height: 50px;
-  overflow: hidden;
-}
-
-/* ==========================================================================
    Section headings
    ========================================================================== */
 
@@ -142,9 +130,6 @@
     }
   }
 
-  @media (max-width: $medium) {
-    display: none;
-  }
 }
 
 .pub-text {
@@ -322,9 +307,6 @@
     object-fit: contain;
   }
 
-  @media (max-width: $medium) {
-    display: none;
-  }
 }
 
 .exp-text {
