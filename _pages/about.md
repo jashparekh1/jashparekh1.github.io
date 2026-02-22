@@ -108,7 +108,7 @@ I'm open to new opportunities to collaborate with researchers and industry partn
     <div class="pub-text">
       <div class="pub-title">AI on my Shoulder: Supporting Emotional Labor in Front-Office Roles with an LLM-Based Empathetic Coworker</div>
       <div class="pub-authors">Vedant Das Swain, Qiuyue "Joy" Zhong, <strong class="me">Jash Parekh</strong>, Yechan Jeon, Roy Zimmermann, Mary P. Czerwinski, Jina Suh, Varun Mishra, Koustuv Saha, Javier Hernandez</div>
-      <div class="pub-venue"><em>Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems</em>, 2025</div>
+      <div class="pub-venue"><em>In Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems</em></div>
       <div class="pub-links">
         <details class="pub-abs">
           <summary>Abs</summary>
