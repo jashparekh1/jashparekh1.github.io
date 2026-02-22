@@ -32,4 +32,17 @@
 <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
+<!-- MapMyVisitors globe -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var container = document.getElementById('globe-container');
+    if (container) {
+      var s = document.createElement('script');
+      s.type = 'text/javascript';
+      s.src = 'https://mapmyvisitors.com/globe.js?d=7z4RdDNnkc-z00a-lXIspmiwK10Ih4LteVmf-XfKUdo';
+      container.appendChild(s);
+    }
+  });
+</script>
+
 <!-- end custom head snippets -->
