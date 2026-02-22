@@ -18,7 +18,7 @@ $sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco
 $monospace                  : Monaco, Consolas, "Lucida Console", monospace;
 
 /* sans serif typefaces */
-$sans-serif-narrow          : $sans-serif;
+$sans-serif-narrow          : "Inter", $sans-serif;
 $helvetica                  : Helvetica, "Helvetica Neue", Arial, sans-serif;
 
 /* serif typefaces */
@@ -28,9 +28,9 @@ $bodoni                     : "Bodoni MT", serif;
 $calisto                    : "Calisto MT", serif;
 $garamond                   : Garamond, serif;
 
-$global-font-family         : $sans-serif;
-$header-font-family         : $sans-serif;
-$caption-font-family        : $serif;
+$global-font-family         : "Inter", $sans-serif;
+$header-font-family         : "Inter", $sans-serif;
+$caption-font-family        : "Lora", $serif;
 
 /* type scale */
 $type-size-1                : 2.441em;  // ~39.056px
@@ -125,8 +125,8 @@ $x-large                    : 1800px;
 $small                      : 600px !default;
 $medium                     : 768px !default;
 $medium-wide                : 900px !default;
-$large                      : 925px !default;
-$x-large                    : 1280px !default;
+$large                      : 1100px !default;
+$x-large                    : 1440px !default;
 
 /*
    Grid

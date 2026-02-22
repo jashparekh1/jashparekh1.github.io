@@ -1,0 +1,343 @@
+/* ==========================================================================
+   Global text color override — black, not grey
+   ========================================================================== */
+
+.page__content {
+  color: #222;
+
+  p, li, div {
+    color: #222;
+  }
+}
+
+/* ==========================================================================
+   About intro
+   ========================================================================== */
+
+.about-intro {
+  font-size: 0.92em;
+  line-height: 1.7;
+  margin-bottom: 0.5em;
+}
+
+.subtle-link {
+  color: #222 !important;
+
+  &:hover {
+    color: $link-color !important;
+  }
+}
+
+/* ==========================================================================
+   Visitor globe
+   ========================================================================== */
+
+.masthead__globe {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  overflow: hidden;
+}
+
+/* ==========================================================================
+   Section headings
+   ========================================================================== */
+
+.section-heading {
+  margin-top: 1.5em;
+  margin-bottom: 0.6em;
+  padding-bottom: 0.3em;
+  border-bottom: 2px solid #e0e2e6;
+  scroll-margin-top: 80px;
+}
+
+/* ==========================================================================
+   Publications
+   ========================================================================== */
+
+.publications-list {
+  h2 {
+    margin-top: 1.5em;
+    margin-bottom: 0.25em;
+  }
+
+  hr {
+    margin-bottom: 1em;
+  }
+}
+
+.pub-entry {
+  display: flex;
+  gap: 1.25em;
+  margin-bottom: 1.25em;
+  padding: 1.15em 1.3em;
+  background: #f6f7f9;
+  border-radius: 8px;
+  transition: box-shadow 0.2s ease;
+
+  &:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.07);
+  }
+}
+
+.pub-img-link {
+  flex-shrink: 0;
+  width: 180px;
+  height: 120px;
+  align-self: center;
+  border-bottom: none !important;
+  overflow: hidden;
+  border-radius: 5px;
+  background: #fff;
+  border: 1px solid #e0e2e6;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: zoom-in;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+
+  @media (max-width: $medium) {
+    display: none;
+  }
+}
+
+.pub-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.pub-title {
+  font-family: "Lora", $serif;
+  font-weight: 700;
+  font-size: 1.1em;
+  color: #222;
+  line-height: 1.35;
+}
+
+.pub-authors {
+  font-size: 0.88em;
+  margin-top: 0.25em;
+  color: #222;
+  letter-spacing: 0.01em;
+
+  .me {
+    color: #1a3a6b;
+    text-decoration: underline;
+  }
+}
+
+.pub-venue {
+  font-size: 0.85em;
+  margin-top: 0.15em;
+  color: #222;
+}
+
+.pub-links {
+  margin-top: 0.5em;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.35em;
+
+  // Shared button style for Abs, Bib, Paper
+  details,
+  .pub-btn {
+    display: inline-block;
+  }
+
+  details {
+    summary {
+      display: inline-block;
+      cursor: pointer;
+      list-style: none;
+      font-size: 0.78em;
+      font-weight: 600;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      color: $info-color;
+      background: #fff;
+      border: 1px solid darken($border-color, 6%);
+      border-radius: 4px;
+      padding: 0.25em 0.65em;
+      transition: all 0.15s ease;
+
+      &::-webkit-details-marker {
+        display: none;
+      }
+
+      &:hover {
+        background: $info-color;
+        color: #fff;
+        border-color: $info-color;
+      }
+    }
+  }
+
+  .pub-btn {
+    font-size: 0.78em;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $info-color;
+    background: #fff;
+    border: 1px solid darken($border-color, 6%);
+    border-radius: 4px;
+    padding: 0.25em 0.65em;
+    text-decoration: none;
+    transition: all 0.15s ease;
+
+    &:hover {
+      background: $info-color;
+      color: #fff;
+      border-color: $info-color;
+    }
+  }
+}
+
+// Abstract expandable block
+.pub-abs {
+  p {
+    margin-top: 0.5em;
+    margin-bottom: 0.25em;
+    padding: 0.65em 0.9em;
+    background: #fff;
+    border: 1px solid darken($border-color, 4%);
+    border-radius: 5px;
+    font-size: 0.88em;
+    line-height: 1.65;
+    color: #222;
+  }
+}
+
+// BibTeX expandable block
+.pub-cite {
+  pre {
+    margin-top: 0.5em;
+    margin-bottom: 0.25em;
+    padding: 0.65em 0.9em;
+    background: #fff;
+    border: 1px solid darken($border-color, 4%);
+    border-radius: 5px;
+    font-size: 0.85em;
+    line-height: 1.5;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-break: break-all;
+  }
+
+  code {
+    background: none;
+    padding: 0;
+    font-size: inherit;
+  }
+}
+
+/* ==========================================================================
+   Experience
+   ========================================================================== */
+
+.experience-list {
+  h2 {
+    margin-top: 1.5em;
+    margin-bottom: 0.25em;
+  }
+
+  hr {
+    margin-bottom: 1em;
+  }
+}
+
+.exp-entry {
+  display: flex;
+  gap: 1.25em;
+  margin-bottom: 1.25em;
+  padding: 1.15em 1.3em;
+  background: #f6f7f9;
+  border-radius: 8px;
+  transition: box-shadow 0.2s ease;
+
+  &:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.07);
+  }
+}
+
+.exp-logo {
+  flex-shrink: 0;
+  width: 100px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: $border-radius;
+    object-fit: contain;
+  }
+
+  @media (max-width: $medium) {
+    display: none;
+  }
+}
+
+.exp-text {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+}
+
+.exp-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 0.25em 1em;
+}
+
+.exp-role {
+  font-family: "Lora", $serif;
+  font-weight: 600;
+  font-size: 1.05em;
+  color: #222;
+}
+
+.exp-company {
+  font-size: 0.95em;
+
+  a {
+    color: #222;
+
+    &:hover {
+      color: $link-color;
+    }
+  }
+}
+
+.exp-date {
+  font-size: 0.85em;
+  color: #555;
+  white-space: nowrap;
+  padding-top: 0.15em;
+}
+
+.exp-details {
+  margin-top: 0.5em;
+  margin-bottom: 0;
+  padding-left: 1.25em;
+  font-size: 0.92em;
+
+  li {
+    margin-bottom: 0.25em;
+  }
+}

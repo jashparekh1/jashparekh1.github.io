@@ -24,7 +24,7 @@ author:
   avatar           : "profile.png"
   name             : "Jash Parekh"
   pronouns         : # example: "she/her"  
-  bio              : "CS @ UIUC"
+  bio              : "M.S. CS @ UIUC"
   location         : "Champaign, IL"
   # employer         : "UIUC"
   uri              : # URL
@@ -32,7 +32,7 @@ author:
 
   # Academic websites
   # arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=uGCt228AAAAJ&hl=en&oi=ao"
+  googlescholar    : "https://scholar.google.com/citations?user=0flsLkoAAAAJ&hl=en"
   # impactstory      : # URL
   # orcid            : "http://orcid.org/yourorcidurl"
   # semantic         : # URL
