@@ -40,9 +40,14 @@ I'm open to new opportunities to collaborate with researchers and industry partn
         </details>
         <details class="pub-cite">
           <summary>Bib</summary>
-          <pre><code>Coming soon.</code></pre>
+          <pre><code>@article{parekh2026condition,
+  title={Condition-Gated Reasoning for Context-Dependent Biomedical Question Answering},
+  author={Parekh, Jash Rajesh and Kweon, Wonbin and Chan, Joey and Islamaj, Rezarta and Leaman, Robert and Jiang, Pengcheng and Wei, Chih-Hsuan and Wang, Zhizheng and Lu, Zhiyong and Han, Jiawei},
+  journal={arXiv preprint arXiv:2602.17911},
+  year={2026}
+}</code></pre>
         </details>
-        <a class="pub-btn" href="#" onclick="return false;">Paper</a>
+        <a class="pub-btn" href="https://arxiv.org/abs/2602.17911" target="_blank">Paper</a>
       </div>
     </div>
   </div>
