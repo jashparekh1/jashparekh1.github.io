@@ -9,7 +9,7 @@ redirect_from:
 
 <div class="about-intro">
 
-Hi, I'm Jash! I'm a first-year M.S. student in Computer Science at the University of Illinois Urbana-Champaign, fortunate to be advised by <a class="subtle-link" href="https://hanj.cs.illinois.edu/" style="text-decoration: none;">Jiawei Han</a>. My research interests include agentic AI, reinforcement learning, and NLP.
+Hi, I'm Jash! I'm a first-year M.S. student in Computer Science at the University of Illinois Urbana-Champaign, fortunate to be advised by <a class="subtle-link" href="https://hanj.cs.illinois.edu/" style="text-decoration: none;">Prof. Jiawei Han</a>. My research interests include agentic AI, reinforcement learning, and NLP.
 
 I am currently researching reasoning-augmented LLM systems, with a focus on leveraging reinforcement learning and structured knowledge to improve multi-step reasoning, planning, and decision-making.
 
