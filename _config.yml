@@ -21,7 +21,7 @@ repository               : "jashparekh1/jashparekh1.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "bio/jash.jpg"
   name             : "Jash Parekh"
   pronouns         : # example: "she/her"  
   bio              : "M.S. CS @ UIUC"
