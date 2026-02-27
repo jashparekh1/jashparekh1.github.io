@@ -13,7 +13,7 @@ Hi, I'm Jash! I'm a first-year M.S. student in Computer Science at the Universit
 
 Currently, I am working on building reasoning-augmented LLM systems, with a focus on leveraging reinforcement learning and structured knowledge to improve multi-step reasoning, planning, and decision-making in complex domains. My recent work explores how to ground LLM reasoning in explicit relational structures to enable more faithful and interpretable inference.
 
-I have previously gained industry experience through internships at YouTube, NVIDIA, and other leading tech companies, contributing to AI research and building high-impact software tools.
+I have previously gained industry experience through internships at YouTube, Nvidia, and other leading tech companies, contributing to AI research and building high-impact software tools.
 
 I'm open to new opportunities to collaborate with researchers and industry partners! Feel free to reach out at jashrp2 [at] illinois [dot] edu.
 
@@ -28,11 +28,11 @@ I'm open to new opportunities to collaborate with researchers and industry partn
   <div class="pub-entry">
     <a class="pub-img-link" href="{{ base_path }}/images/publications/cgr.png">
       <img src="{{ base_path }}/images/publications/cgr.png" alt="Condition-Gated Reasoning for Context-Dependent Biomedical Question Answering" />
+      <span class="pub-venue-badge">Under Review</span>
     </a>
     <div class="pub-text">
       <div class="pub-title">Condition-Gated Reasoning for Context-Dependent Biomedical Question Answering</div>
       <div class="pub-authors"><strong class="me">Jash Parekh</strong>, <a class="coauthor-link" href="https://wonbinkweon.github.io/">Wonbin Kweon</a>, <a class="coauthor-link" href="https://www.linkedin.com/in/joey-chan-b83444192/">Joey Chan</a>, <a class="coauthor-link" href="https://www.linkedin.com/in/rezarta-islamaj-ms-phd-00b9591/">Rezarta Islamaj</a>, <a class="coauthor-link" href="https://www.linkedin.com/in/robert-leaman-6233986/">Robert Leaman</a>, <a class="coauthor-link" href="https://pat-jj.github.io/">Pengcheng Jiang</a>, <a class="coauthor-link" href="https://www.linkedin.com/in/chih-hsuan-wei-a06520257/">Chih-Hsuan Wei</a>, <a class="coauthor-link" href="https://www.linkedin.com/in/zhizheng-wang-004071310/">Zhizheng Wang</a>, <a class="coauthor-link" href="https://www.ncbi.nlm.nih.gov/research/bionlp/Zhiyong-Lu">Zhiyong Lu</a>, <a class="coauthor-link" href="https://hanj.cs.illinois.edu/">Jiawei Han</a></div>
-      <div class="pub-venue"><em>Under review</em>, 2026</div>
       <div class="pub-links">
         <details class="pub-abs">
           <summary>Abs</summary>
@@ -55,11 +55,11 @@ I'm open to new opportunities to collaborate with researchers and industry partn
   <div class="pub-entry">
     <a class="pub-img-link" href="{{ base_path }}/images/publications/structure_augmented.png">
       <img src="{{ base_path }}/images/publications/structure_augmented.png" alt="Structure-Augmented Reasoning Generation" />
+      <span class="pub-venue-badge">Under Review</span>
     </a>
     <div class="pub-text">
       <div class="pub-title">Structure-Augmented Reasoning Generation</div>
       <div class="pub-authors"><strong class="me">Jash Parekh</strong>, <a class="coauthor-link" href="https://pat-jj.github.io/">Pengcheng Jiang</a>, <a class="coauthor-link" href="https://hanj.cs.illinois.edu/">Jiawei Han</a></div>
-      <div class="pub-venue"><em>arXiv preprint</em>, 2025</div>
       <div class="pub-links">
         <details class="pub-abs">
           <summary>Abs</summary>
@@ -82,11 +82,11 @@ I'm open to new opportunities to collaborate with researchers and industry partn
   <div class="pub-entry">
     <a class="pub-img-link" href="{{ base_path }}/images/publications/ai_negotiation.png">
       <img src="{{ base_path }}/images/publications/ai_negotiation.png" alt="Does AI Coaching Prepare us for Workplace Negotiations?" />
+      <span class="pub-venue-badge">Preprint</span>
     </a>
     <div class="pub-text">
       <div class="pub-title">Does AI Coaching Prepare us for Workplace Negotiations?</div>
       <div class="pub-authors"><a class="coauthor-link" href="https://www.linkedin.com/in/veda-duddu/">Veda Duddu</a>, <strong class="me">Jash Parekh</strong>, <a class="coauthor-link" href="https://www.linkedin.com/in/hanqi-mao-a1251b2bb/">Andy Mao</a>, <a class="coauthor-link" href="https://ler.illinois.edu/directory/haylee-min/">Hanyi Min</a>, <a class="coauthor-link" href="https://www.ziangxiao.com/">Ziang Xiao</a>, <a class="coauthor-link" href="https://vedantdasswain.com/">Vedant Das Swain</a>, <a class="coauthor-link" href="https://koustuv.com/">Koustuv Saha</a></div>
-      <div class="pub-venue"><em>arXiv preprint</em>, 2025</div>
       <div class="pub-links">
         <details class="pub-abs">
           <summary>Abs</summary>
@@ -109,6 +109,7 @@ I'm open to new opportunities to collaborate with researchers and industry partn
   <div class="pub-entry">
     <a class="pub-img-link" href="{{ base_path }}/images/publications/ai_shoulder.png">
       <img src="{{ base_path }}/images/publications/ai_shoulder.png" alt="AI on my Shoulder" />
+      <span class="pub-venue-badge">CHI '25</span>
     </a>
     <div class="pub-text">
       <div class="pub-title">AI on my Shoulder: Supporting Emotional Labor in Front-Office Roles with an LLM-Based Empathetic Coworker</div>
@@ -137,6 +138,7 @@ I'm open to new opportunities to collaborate with researchers and industry partn
   <div class="pub-entry">
     <a class="pub-img-link" href="{{ base_path }}/images/publications/impervious_surfaces.png">
       <img src="{{ base_path }}/images/publications/impervious_surfaces.png" alt="Automatic Detection of Impervious Surfaces" />
+      <span class="pub-venue-badge">Remote Sensing '21</span>
     </a>
     <div class="pub-text">
       <div class="pub-title">Automatic Detection of Impervious Surfaces from Remotely Sensed Data Using Deep Learning</div>
