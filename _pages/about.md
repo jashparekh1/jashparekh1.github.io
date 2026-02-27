@@ -9,11 +9,9 @@ redirect_from:
 
 <div class="about-intro">
 
-Hi, I'm Jash! I'm a first-year M.S. student in Computer Science at the University of Illinois Urbana-Champaign, advised by <a class="subtle-link" href="https://hanj.cs.illinois.edu/" style="text-decoration: none;">Prof. Jiawei Han</a>. My research interests include agentic AI, reinforcement learning, and NLP.
+Hi, I'm Jash! I'm a first-year M.S. student in Computer Science at the University of Illinois Urbana-Champaign, fortunate to be advised by <a class="subtle-link" href="https://hanj.cs.illinois.edu/" style="text-decoration: none;">Jiawei Han</a>. My research interests include agentic AI, reinforcement learning, and NLP.
 
-Currently, I am working on building reasoning-augmented LLM systems, with a focus on leveraging reinforcement learning and structured knowledge to improve multi-step reasoning, planning, and decision-making in complex domains. My recent work explores how to ground LLM reasoning in explicit relational structures to enable more faithful and interpretable inference.
-
-I have previously gained industry experience through internships at YouTube, Nvidia, and other leading tech companies, contributing to AI research and building high-impact software tools.
+I am currently researching reasoning-augmented LLM systems, with a focus on leveraging reinforcement learning and structured knowledge to improve multi-step reasoning, planning, and decision-making.
 
 I'm open to new opportunities to collaborate with researchers and industry partners! Feel free to reach out at jashrp2 [at] illinois [dot] edu.
 
