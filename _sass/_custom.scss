@@ -2,6 +2,10 @@
    Global text color override — black, not grey
    ========================================================================== */
 
+.page__title {
+  color: #222;
+}
+
 .page__content {
   color: #222;
 
@@ -383,3 +387,4 @@
     margin-bottom: 0.25em;
   }
 }
+

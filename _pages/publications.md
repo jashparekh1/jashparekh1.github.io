@@ -1,25 +1,10 @@
 ---
-permalink: /
-title: ""
+permalink: /publications/
+title: "Publications"
 author_profile: true
-redirect_from:
-  - /about/
-  - /about.html
 ---
 
-<div class="about-intro">
-
-<p>Hi, I'm Jash! I'm a first-year M.S. student in Computer Science at the University of Illinois Urbana-Champaign, fortunate to be advised by <a class="subtle-link" href="https://hanj.cs.illinois.edu/" style="text-decoration: none;">Prof. Jiawei Han</a>.</p>
-
-<p>I am currently researching reasoning-augmented LLM systems, with a focus on leveraging reinforcement learning and structured knowledge to improve multi-step reasoning, planning, and decision-making.</p>
-
-<p>I'm open to new opportunities to collaborate with researchers and industry partners! Feel free to reach out at jashrp2 [at] illinois [dot] edu.</p>
-
-</div>
-
 {% include base_path %}
-
-<h2 id="publications" class="section-heading">Publications</h2>
 
 <div class="publications-list">
 
@@ -167,85 +152,6 @@ redirect_from:
 
 </div>
 
-<h2 id="experience" class="section-heading">Experience</h2>
-
-<div class="experience-list">
-
-  <div class="exp-entry">
-    <div class="exp-logo">
-      <img src="/images/experience/youtube.png" alt="YouTube" />
-    </div>
-    <div class="exp-text">
-      <div class="exp-header">
-        <div class="exp-role">Software Engineer Intern</div>
-        <div class="exp-date">05.2026 &ndash; 08.2026</div>
-      </div>
-    </div>
-  </div>
-
-  <div class="exp-entry">
-    <div class="exp-logo">
-      <img src="/images/experience/nvidia.png" alt="NVIDIA" />
-    </div>
-    <div class="exp-text">
-      <div class="exp-header">
-        <div class="exp-role">Software Engineer Intern</div>
-        <div class="exp-date">01.2025 &ndash; 07.2025</div>
-      </div>
-    </div>
-  </div>
-
-  <div class="exp-entry">
-    <div class="exp-logo">
-      <img src="/images/experience/nvidia.png" alt="NVIDIA" />
-    </div>
-    <div class="exp-text">
-      <div class="exp-header">
-        <div class="exp-role">Data Science Intern</div>
-        <div class="exp-date">05.2024 &ndash; 08.2024</div>
-      </div>
-    </div>
-  </div>
-
-  <div class="exp-entry">
-    <div class="exp-logo">
-      <img src="/images/experience/ligadata.jpeg" alt="LigaData" />
-    </div>
-    <div class="exp-text">
-      <div class="exp-header">
-        <div class="exp-role">Software Engineer Intern</div>
-        <div class="exp-date">05.2023 &ndash; 08.2023</div>
-      </div>
-    </div>
-  </div>
-
-  <div class="exp-entry">
-    <div class="exp-logo">
-      <img src="/images/experience/ameren.jpeg" alt="Ameren" />
-    </div>
-    <div class="exp-text">
-      <div class="exp-header">
-        <div class="exp-role">Software Engineer Intern</div>
-        <div class="exp-date">05.2022 &ndash; 08.2022</div>
-      </div>
-    </div>
-  </div>
-
-  <div class="exp-entry">
-    <div class="exp-logo">
-      <img src="/images/experience/sig.png" alt="Spatial Informatics Group" />
-    </div>
-    <div class="exp-text">
-      <div class="exp-header">
-        <div class="exp-role">Research Scientist</div>
-        <div class="exp-date">04.2020 &ndash; 08.2021</div>
-      </div>
-    </div>
-  </div>
-
-</div>
-
-
 <script>
   $(document).ready(function() {
     $('.pub-img-link').magnificPopup({
@@ -263,4 +169,3 @@ redirect_from:
     });
   });
 </script>
-
