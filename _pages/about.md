@@ -9,7 +9,7 @@ redirect_from:
 
 <div class="about-intro">
 
-<p>Hi, I'm Jash! I'm a first-year M.S. student in Computer Science at the University of Illinois Urbana-Champaign, fortunate to be advised by <a class="subtle-link" href="https://hanj.cs.illinois.edu/" style="text-decoration: none;">Prof. Jiawei Han</a>.</p>
+<p>Hi, I'm Jash! I'm a first-year M.S. student in Computer Science at the University of Illinois Urbana-Champaign, fortunate to be advised by <a href="https://hanj.cs.illinois.edu/" style="color: #1a3a6b; text-decoration: none;">Prof. Jiawei Han</a>.</p>
 
 <p>I am currently researching reasoning-augmented LLM systems, with a focus on leveraging reinforcement learning and structured knowledge to improve multi-step reasoning, planning, and decision-making.</p>
 
@@ -77,32 +77,6 @@ redirect_from:
     </div>
   </div>
 
-  <div class="pub-entry">
-    <a class="pub-img-link" href="{{ base_path }}/images/publications/ai_negotiation.png">
-      <img src="{{ base_path }}/images/publications/ai_negotiation.png" alt="Does AI Coaching Prepare us for Workplace Negotiations?" />
-      <span class="pub-venue-badge">Preprint</span>
-    </a>
-    <div class="pub-text">
-      <div class="pub-title">Does AI Coaching Prepare us for Workplace Negotiations?</div>
-      <div class="pub-authors"><a class="coauthor-link" href="https://www.linkedin.com/in/veda-duddu/">Veda Duddu</a>, <strong class="me">Jash Parekh</strong>, <a class="coauthor-link" href="https://www.linkedin.com/in/hanqi-mao-a1251b2bb/">Andy Mao</a>, <a class="coauthor-link" href="https://ler.illinois.edu/directory/haylee-min/">Hanyi Min</a>, <a class="coauthor-link" href="https://www.ziangxiao.com/">Ziang Xiao</a>, <a class="coauthor-link" href="https://vedantdasswain.com/">Vedant Das Swain</a>, <a class="coauthor-link" href="https://koustuv.com/">Koustuv Saha</a></div>
-      <div class="pub-links">
-        <details class="pub-abs">
-          <summary>Abs</summary>
-          <p>Workplace negotiations are undermined by psychological barriers, which can even derail well-prepared tactics. AI offers personalized and always-available negotiation coaching, yet its effectiveness for negotiation preparedness remains unclear. We built Trucey, a prototype AI coach grounded in Brett's negotiation model. We conducted a between-subjects experiment (N=267), comparing Trucey, ChatGPT, and a traditional negotiation Handbook, followed by in-depth interviews (N=15). While Trucey showed the strongest reductions in fear relative to both comparison conditions, the Handbook outperformed both AIs in usability and psychological empowerment. Interviews revealed that the Handbook's comprehensive, reviewable content was crucial for participants' confidence and preparedness. In contrast, although participants valued AI's rehearsal capability, its guidance often felt verbose and fragmented—delivered in bits and pieces that required additional effort—leaving them uncertain or overwhelmed. These findings challenge assumptions of AI superiority and motivate hybrid designs that integrate structured, theory-driven content with targeted rehearsal, clear boundaries, and adaptive scaffolds to address psychological barriers and support negotiation preparedness.</p>
-        </details>
-        <details class="pub-cite">
-          <summary>Bib</summary>
-          <pre><code>@article{duddu2025does,
-  title={Does AI Coaching Prepare us for Workplace Negotiations?},
-  author={Duddu, Veda and Parekh, Jash Rajesh and Mao, Andy and Min, Hanyi and Xiao, Ziang and Swain, Vedant Das and Saha, Koustuv},
-  journal={arXiv preprint arXiv:2509.22545},
-  year={2025}
-}</code></pre>
-        </details>
-        <a class="pub-btn" href="https://arxiv.org/abs/2509.22545" target="_blank">Paper</a>
-      </div>
-    </div>
-  </div>
 
   <div class="pub-entry">
     <a class="pub-img-link" href="{{ base_path }}/images/publications/ai_shoulder.png">
