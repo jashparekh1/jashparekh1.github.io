@@ -9,7 +9,7 @@ redirect_from:
 
 <div class="about-intro">
 
-<p>Hi, I'm Jash! I'm a first-year M.S. student in Computer Science at the University of Illinois Urbana-Champaign, fortunate to be advised by <a href="https://hanj.cs.illinois.edu/" style="color: #1a3a6b; text-decoration: none;">Prof. Jiawei Han</a>.</p>
+<p>Hi, I'm Jash! I'm a first-year MS student in Computer Science at the University of Illinois Urbana-Champaign, fortunate to be advised by <a href="https://hanj.cs.illinois.edu/" style="color: #1a3a6b; text-decoration: none;">Prof. Jiawei Han</a>.</p>
 
 <p>I am currently researching reasoning-augmented LLM systems, with a focus on leveraging reinforcement learning and structured knowledge to improve multi-step reasoning, planning, and decision-making.</p>
 
@@ -19,7 +19,7 @@ redirect_from:
 
 {% include base_path %}
 
-<h2 id="publications" class="section-heading">Publications</h2>
+<h2 id="publications" class="section-heading">Selected Publications</h2>
 
 <div class="publications-list">
 
