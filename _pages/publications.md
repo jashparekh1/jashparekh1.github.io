@@ -1,8 +1,7 @@
 ---
 permalink: /publications/
 title: "Publications"
-hide_title: true
-author_profile: false
+author_profile: true
 ---
 
 {% include base_path %}
@@ -59,33 +58,6 @@ author_profile: false
 }</code></pre>
         </details>
         <a class="pub-btn" href="https://arxiv.org/abs/2506.08364" target="_blank">Paper</a>
-      </div>
-    </div>
-  </div>
-
-  <div class="pub-entry">
-    <a class="pub-img-link" href="{{ base_path }}/images/publications/ai_negotiation.png">
-      <img src="{{ base_path }}/images/publications/ai_negotiation.png" alt="Not My Truce: Personality Differences in AI-Mediated Workplace Negotiation" />
-      <span class="pub-venue-badge">Under Review</span>
-    </a>
-    <div class="pub-text">
-      <div class="pub-title">Not My Truce: Personality Differences in AI-Mediated Workplace Negotiation</div>
-      <div class="pub-authors"><a class="coauthor-link" href="https://www.linkedin.com/in/veda-duddu/">Veda Duddu</a>, <strong class="me">Jash Parekh</strong>, <a class="coauthor-link" href="https://www.linkedin.com/in/hanqi-mao-a1251b2bb/">Andy Mao</a>, <a class="coauthor-link" href="https://ler.illinois.edu/directory/haylee-min/">Hanyi Min</a>, <a class="coauthor-link" href="https://www.ziangxiao.com/">Ziang Xiao</a>, <a class="coauthor-link" href="https://vedantdasswain.com/">Vedant Das Swain</a>, <a class="coauthor-link" href="https://koustuv.com/">Koustuv Saha</a></div>
-      <div class="pub-links">
-        <details class="pub-abs">
-          <summary>Abs</summary>
-          <p>AI-driven conversational coaching is increasingly used to support workplace negotiation, yet prior work assumes uniform effectiveness across users. We challenge this assumption by examining how individual differences, particularly personality traits, moderate coaching outcomes. We conducted a between-subjects experiment (N=267) comparing theory-driven AI (Trucey), general-purpose AI (Control-AI), and a traditional negotiation Control-NoAI. Participants were clustered into three profiles—resilient, overcontrolled, and undercontrolled—based on the Big Five personality traits and ARC typology. Resilient workers achieved broad psychological gains primarily from the handbook, overcontrolled workers showed outcome-specific improvements with theory-driven AI, and undercontrolled workers exhibited minimal effects despite engaging with the frameworks. These patterns suggest personality as a predictor of readiness beyond stage-based tailoring: vulnerable users benefit from targeted rather than comprehensive interventions. The study advances understanding of personality-determined intervention prerequisites and highlights design implications for adaptive AI coaching systems that align support intensity with individual readiness, rather than assuming universal effectiveness.</p>
-        </details>
-        <details class="pub-cite">
-          <summary>Bib</summary>
-          <pre><code>@article{duddu2026not,
-  title={Not My Truce: Personality Differences in AI-Mediated Workplace Negotiation},
-  author={Duddu, Veda and Parekh, Jash Rajesh and Mao, Andy and Min, Hanyi and Xiao, Ziang and Swain, Vedant Das and Saha, Koustuv},
-  journal={arXiv preprint arXiv:2604.00464},
-  year={2026}
-}</code></pre>
-        </details>
-        <a class="pub-btn" href="https://arxiv.org/abs/2604.00464" target="_blank">Paper</a>
       </div>
     </div>
   </div>

@@ -1,7 +1,7 @@
 ---
 permalink: /experience/
 title: "Experience"
-author_profile: false
+author_profile: true
 ---
 
 {% include base_path %}
