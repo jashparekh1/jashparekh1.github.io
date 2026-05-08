@@ -183,10 +183,18 @@
   color: #222;
   letter-spacing: 0.01em;
 
+  strong {
+    color: #1a3a6b;
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
   .me {
     color: #1a3a6b;
-    font-weight: 400;
-    text-decoration: none;
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 2px;
   }
 
   .coauthor-link {
@@ -355,13 +363,14 @@
   flex: 1;
   min-width: 0;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .exp-header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
   width: 100%;
   flex-wrap: wrap;
   gap: 0.25em 1em;
@@ -369,9 +378,16 @@
 
 .exp-role {
   font-family: $serif;
-  font-weight: 400;
-  font-size: 0.95em;
+  font-weight: 500;
+  font-size: 1.1em;
   color: #222;
+}
+
+.exp-tagline {
+  font-family: $serif;
+  font-size: 0.9em;
+  color: #555;
+  margin-top: 0.15em;
 }
 
 .exp-company {
