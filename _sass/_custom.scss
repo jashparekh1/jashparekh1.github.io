@@ -46,6 +46,10 @@
   text-align: center;
 }
 
+.sidebar .author__name {
+  font-weight: 400;
+}
+
 .author__social-icons {
   text-align: center;
   margin-top: 0.5em;
@@ -118,8 +122,8 @@
 
 .pub-img-link {
   flex-shrink: 0;
-  width: 180px;
-  height: 120px;
+  width: 140px;
+  height: 90px;
   align-self: center;
   border-bottom: none !important;
   overflow: visible;
