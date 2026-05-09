@@ -193,7 +193,7 @@ redirect_from:
         <div class="exp-role">Software Engineer Intern</div>
         <div class="exp-date">05.2023 &ndash; 08.2023</div>
       </div>
-      <div class="exp-tagline">ML for Anomaly Detection</div>
+      <div class="exp-tagline">Anomaly Detection</div>
     </div>
   </div>
 
