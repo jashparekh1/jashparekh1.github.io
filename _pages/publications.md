@@ -11,7 +11,7 @@ author_profile: true
   <div class="pub-entry">
     <a class="pub-img-link" href="{{ base_path }}/images/publications/cgr.png">
       <img src="{{ base_path }}/images/publications/cgr.png" alt="Condition-Gated Reasoning for Context-Dependent Biomedical Question Answering" />
-      <span class="pub-venue-badge">Under Review</span>
+      <span class="pub-venue-badge">KDD 2026</span>
     </a>
     <div class="pub-text">
       <div class="pub-title">Condition-Gated Reasoning for Context-Dependent Biomedical Question Answering</div>
