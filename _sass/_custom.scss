@@ -120,17 +120,27 @@
   border-bottom: 1px solid #e8e9ec;
 }
 
-.pub-img-link {
+.pub-img-col {
   flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.4em;
+  align-self: center;
+
+  @media (max-width: $medium) {
+    align-self: flex-start;
+  }
+}
+
+.pub-img-link {
   width: 140px;
   height: 90px;
-  align-self: center;
   border-bottom: none !important;
-  overflow: visible;
+  overflow: hidden;
   border-radius: 5px;
   background: #fff;
   border: 1px solid #e0e2e6;
-  position: relative;
 
   img {
     width: 100%;
@@ -152,20 +162,15 @@
 }
 
 .pub-venue-badge {
-  position: absolute;
-  top: -0.75em;
-  left: 50%;
-  transform: translateX(-50%);
+  display: inline-block;
   background: #1a3a6b;
   color: #fff;
-  font-size: 0.65em;
+  font-size: 0.6em;
   font-weight: 700;
   letter-spacing: 0.04em;
-  padding: 0.2em 0.6em;
+  padding: 0.35em 0.75em;
   border-radius: 4px;
   white-space: nowrap;
-  pointer-events: none;
-  z-index: 1;
 }
 
 .pub-text {
@@ -218,6 +223,24 @@
   color: #222;
 }
 
+.pub-tag {
+  display: inline-block;
+  font-size: 0.65em;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  padding: 0.2em 0.55em;
+  border-radius: 3px;
+  margin-left: 0.4em;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+
+.pub-tag-oral {
+  background: transparent;
+  color: #b91c1c;
+  border: 1px solid #b91c1c;
+}
+
 .pub-links {
   margin-top: 0.5em;
   display: flex;
@@ -237,7 +260,7 @@
       cursor: pointer;
       list-style: none;
       font-family: $sans-serif;
-      font-size: 0.7em;
+      font-size: 0.6em;
       font-weight: 600;
       letter-spacing: 0.03em;
       text-transform: uppercase;
@@ -245,7 +268,7 @@
       background: #fff;
       border: 1px solid darken($border-color, 6%);
       border-radius: 4px;
-      padding: 0.25em 0.65em;
+      padding: 0.3em 0.7em;
       transition: all 0.15s ease;
 
       &::-webkit-details-marker {
@@ -262,7 +285,7 @@
 
   .pub-btn {
     font-family: $sans-serif;
-    font-size: 0.7em;
+    font-size: 0.6em;
     font-weight: 600;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -270,7 +293,7 @@
     background: #fff;
     border: 1px solid darken($border-color, 6%);
     border-radius: 4px;
-    padding: 0.25em 0.65em;
+    padding: 0.3em 0.7em;
     text-decoration: none;
     transition: all 0.15s ease;
 
