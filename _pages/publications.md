@@ -10,6 +10,35 @@ author_profile: true
 
   <div class="pub-entry">
     <div class="pub-img-col">
+      <span class="pub-venue-badge">Under Review</span>
+      <a class="pub-img-link" href="{{ base_path }}/images/publications/pyrag.png">
+        <img src="{{ base_path }}/images/publications/pyrag.png" alt="Retrieval is Cheap, Show Me the Code: Executable Multi-Hop Reasoning for Retrieval-Augmented Generation" />
+      </a>
+    </div>
+    <div class="pub-text">
+      <div class="pub-title">Retrieval is Cheap, Show Me the Code: Executable Multi-Hop Reasoning for Retrieval-Augmented Generation</div>
+      <div class="pub-authors"><a class="coauthor-link" href="https://gasolsun36.github.io/">Jiashuo Sun</a>, <a class="coauthor-link" href="https://jimengshi.github.io/">Jimeng Shi</a>, <a class="coauthor-link" href="https://makr-xie.github.io/">Yixuan Xie</a>, Saizhuo Wang, <strong class="me">Jash Parekh</strong>, <a class="coauthor-link" href="https://pat-jj.github.io/">Pengcheng Jiang</a>, Zhiyi Shi, Jiajun Fan, Qinglong Zheng, Peiran Li, <a class="coauthor-link" href="https://ggis.illinois.edu/directory/profile/shaowen">Shaowen Wang</a>, <a class="coauthor-link" href="https://www.mit.edu/~geliu/">Ge Liu</a>, <a class="coauthor-link" href="https://hanj.cs.illinois.edu/">Jiawei Han</a></div>
+      <div class="pub-links">
+        <details class="pub-abs">
+          <summary>Abs</summary>
+          <p>Retrieval-Augmented Generation (RAG) has become a standard approach for knowledge-intensive question answering, but existing systems remain brittle on multi-hop questions, where solving the task requires chaining multiple retrieval and reasoning steps. Key challenges are that current methods represent reasoning through free-form natural language, where intermediate states are implicit, retrieval queries can drift from intended entities, and errors are detected by the same model that produces them making self-reflection an unreliable, ungrounded signal. We observe that multi-hop question answering is a typical form of step-by-step computation, and that this structured process aligns closely with how code-specialized language models are trained to operate. Motivated by this, we introduce PyRAG, a framework that reformulates multi-hop RAG as program synthesis and execution. Instead of free-form reasoning trajectories, PyRAG represents the reasoning process as an executable Python program over retrieval and QA tools, exposing intermediate states as variables, producing deterministic feedback through execution, and yielding an inspectable trace of the entire reasoning process. This formulation further enables compiler-grounded self-repair and execution-driven adaptive retrieval without any additional training. Experiments on five QA benchmarks (PopQA, HotpotQA, 2WikiMultihopQA, MuSiQue, and Bamboogle) show that PyRAG consistently outperforms strong baselines under both training-free and RL-trained settings, with especially large gains on compositional multi-hop datasets.</p>
+        </details>
+        <details class="pub-cite">
+          <summary>Bib</summary>
+          <pre><code>@article{sun2026retrieval,
+  title={Retrieval is Cheap, Show Me the Code: Executable Multi-Hop Reasoning for Retrieval-Augmented Generation},
+  author={Sun, Jiashuo and Shi, Jimeng and Xie, Yixuan and Wang, Saizhuo and Parekh, Jash Rajesh and Jiang, Pengcheng and Shi, Zhiyi and Fan, Jiajun and Zheng, Qinglong and Li, Peiran and Wang, Shaowen and Liu, Ge and Han, Jiawei},
+  journal={arXiv preprint arXiv:2605.12975},
+  year={2026}
+}</code></pre>
+        </details>
+        <a class="pub-btn" href="https://arxiv.org/pdf/2605.12975" target="_blank">Paper</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="pub-entry">
+    <div class="pub-img-col">
       <span class="pub-venue-badge">KDD '26</span>
       <a class="pub-img-link" href="{{ base_path }}/images/publications/cgr.png">
         <img src="{{ base_path }}/images/publications/cgr.png" alt="Condition-Gated Reasoning for Context-Dependent Biomedical Question Answering" />
@@ -166,7 +195,7 @@ author_profile: true
     <div class="pub-text">
       <div class="pub-title">Automatic Detection of Impervious Surfaces from Remotely Sensed Data Using Deep Learning</div>
       <div class="pub-authors"><strong class="me">Jash Parekh</strong>, <a class="coauthor-link" href="https://sig-gis.com/sig-team/ate-poortinga/">Ate Poortinga</a>, <a class="coauthor-link" href="https://biplovbhandari.github.io/">Biplov Bhandari</a>, <a class="coauthor-link" href="https://www.uah.edu/essc/laboratory-for-applied-science/faculty-staff/timothy-mayer">Timothy Mayer</a>, <a class="coauthor-link" href="https://www.usfca.edu/faculty/david-saah">David Saah</a>, <a class="coauthor-link" href="https://migration.ubc.ca/profile/farrukh-chishtie/">Farrukh Chishtie</a></div>
-      <div class="pub-venue"><em>Remote Sensing</em>, 13(16), 3166, 2021</div>
+      <div class="pub-venue"><em>In Remote Sensing, 2021</em></div>
       <div class="pub-links">
         <details class="pub-abs">
           <summary>Abs</summary>
