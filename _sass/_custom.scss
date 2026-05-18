@@ -173,6 +173,13 @@
   white-space: nowrap;
 }
 
+.pub-badges-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35em;
+  align-items: center;
+}
+
 .pub-text {
   flex: 1;
   min-width: 0;
@@ -225,20 +232,19 @@
 
 .pub-tag {
   display: inline-block;
-  font-size: 0.65em;
+  font-size: 0.6em;
   font-weight: 700;
   letter-spacing: 0.04em;
-  padding: 0.2em 0.55em;
-  border-radius: 3px;
-  margin-left: 0.4em;
+  padding: 0.35em 0.75em;
+  border-radius: 4px;
   vertical-align: middle;
   text-transform: uppercase;
+  white-space: nowrap;
 }
 
 .pub-tag-oral {
-  background: transparent;
-  color: #b91c1c;
-  border: 1px solid #b91c1c;
+  background: #7f1d1d;
+  color: #fff;
 }
 
 .pub-links {
