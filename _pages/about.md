@@ -25,7 +25,10 @@ redirect_from:
 
   <div class="pub-entry">
     <div class="pub-img-col">
-      <span class="pub-venue-badge">KDD '26</span>
+      <div class="pub-badges-row">
+        <span class="pub-venue-badge">KDD '26</span>
+        <span class="pub-tag pub-tag-oral">Oral</span>
+      </div>
       <a class="pub-img-link" href="{{ base_path }}/images/publications/cgr.png">
         <img src="{{ base_path }}/images/publications/cgr.png" alt="Condition-Gated Reasoning for Context-Dependent Biomedical Question Answering" />
       </a>
@@ -33,7 +36,7 @@ redirect_from:
     <div class="pub-text">
       <div class="pub-title">Condition-Gated Reasoning for Context-Dependent Biomedical Question Answering</div>
       <div class="pub-authors"><strong class="me">Jash Parekh</strong>, <a class="coauthor-link" href="https://wonbinkweon.github.io/">Wonbin Kweon</a>, <a class="coauthor-link" href="https://www.linkedin.com/in/joey-chan-b83444192/">Joey Chan</a>, <a class="coauthor-link" href="https://www.linkedin.com/in/rezarta-islamaj-ms-phd-00b9591/">Rezarta Islamaj</a>, <a class="coauthor-link" href="https://www.linkedin.com/in/robert-leaman-6233986/">Robert Leaman</a>, <a class="coauthor-link" href="https://pat-jj.github.io/">Pengcheng Jiang</a>, <a class="coauthor-link" href="https://www.linkedin.com/in/chih-hsuan-wei-a06520257/">Chih-Hsuan Wei</a>, <a class="coauthor-link" href="https://www.linkedin.com/in/zhizheng-wang-004071310/">Zhizheng Wang</a>, <a class="coauthor-link" href="https://www.ncbi.nlm.nih.gov/research/bionlp/Zhiyong-Lu">Zhiyong Lu</a>, <a class="coauthor-link" href="https://hanj.cs.illinois.edu/">Jiawei Han</a></div>
-      <div class="pub-venue"><em>In Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining</em> <span class="pub-tag pub-tag-oral">Oral</span></div>
+      <div class="pub-venue"><em>In Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining</em></div>
       <div class="pub-links">
         <details class="pub-abs">
           <summary>Abs</summary>
