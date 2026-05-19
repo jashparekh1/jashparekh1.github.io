@@ -2,5 +2,6 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Resume"
-    url: https://drive.google.com/file/d/1wPrJlM3O3_NLSm7-3pq3KJyJ2B5s_Vil/view?usp=sharing
+  - title: "CV"
+    url: /files/jash_parekh_cv.pdf
+    new_tab: true
