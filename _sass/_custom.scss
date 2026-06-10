@@ -9,6 +9,24 @@
 }
 
 /* ==========================================================================
+   Sticky-footer gap fix — the theme pins the footer with
+   position:absolute; bottom:0 against html{min-height:100%}. When the page
+   content is shorter than the viewport, that strands the footer at the bottom
+   of the screen with a big gap above it. Un-pin it so it simply flows right
+   after the content, with a small consistent margin.
+   ========================================================================== */
+
+body {
+  padding-bottom: 0;
+}
+
+.page__footer {
+  position: relative;
+  bottom: auto;
+  margin-top: 2em;
+}
+
+/* ==========================================================================
    Global text color override — black, not grey
    ========================================================================== */
 
@@ -95,6 +113,55 @@
   padding-bottom: 0.3em;
   border-bottom: 2px solid #e0e2e6;
   scroll-margin-top: 80px;
+}
+
+/* ==========================================================================
+   News
+   ========================================================================== */
+
+.news-table {
+  width: 100%;
+  margin-bottom: 1.5em;
+  border: none;
+  border-collapse: collapse;
+  font-size: 0.9em;
+  line-height: 1.55;
+
+  tr {
+    background: transparent !important;
+    border: none;
+  }
+
+  td {
+    padding: 0.3em 0.5em 0.3em 0;
+    border: none;
+    background: transparent;
+    vertical-align: top;
+    color: #222;
+  }
+
+  .news-emoji {
+    width: 1.6em;
+    padding-right: 0.4em;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  .news-date {
+    width: 1%;
+    white-space: nowrap;
+    padding-right: 1em;
+  }
+
+  .news-desc {
+    width: auto;
+
+    a {
+      color: $link-color;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+  }
 }
 
 /* ==========================================================================

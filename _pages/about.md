@@ -19,6 +19,48 @@ redirect_from:
 
 {% include base_path %}
 
+<h2 id="news" class="section-heading">News</h2>
+
+<table class="news-table">
+  <tbody>
+    <tr>
+      <td class="news-emoji">🚀</td>
+      <td class="news-date">05.2026</td>
+      <td class="news-desc">Started as a Machine Learning Engineer Intern at Google (YouTube Discovery)</td>
+    </tr>
+    <tr>
+      <td class="news-emoji">🎉</td>
+      <td class="news-date">05.2026</td>
+      <td class="news-desc">Condition-Gated Reasoning (CGR) accepted as an <strong>Oral</strong> at KDD '26!</td>
+    </tr>
+    <tr>
+      <td class="news-emoji">🎤</td>
+      <td class="news-date">03.2026</td>
+      <td class="news-desc">Invited talk at the National Institutes of Health (NIH): <em>"Condition-Gated Reasoning for Context-Dependent Biomedical Question Answering"</em></td>
+    </tr>
+    <tr>
+      <td class="news-emoji">🎤</td>
+      <td class="news-date">10.2025</td>
+      <td class="news-desc">Guest lecture in CS598 (UIUC): <em>"Structure-Augmented Reasoning Generation"</em></td>
+    </tr>
+    <tr>
+      <td class="news-emoji">🎓</td>
+      <td class="news-date">08.2025</td>
+      <td class="news-desc">Started my MS in Computer Science at UIUC, advised by Prof. Jiawei Han</td>
+    </tr>
+    <tr>
+      <td class="news-emoji">🎉</td>
+      <td class="news-date">04.2025</td>
+      <td class="news-desc">Care-Pilot paper published at CHI '25</td>
+    </tr>
+    <tr>
+      <td class="news-emoji">🚀</td>
+      <td class="news-date">01.2025</td>
+      <td class="news-desc">Started as a Software Engineer Intern at NVIDIA (Autonomous Vehicle Evaluation)</td>
+    </tr>
+  </tbody>
+</table>
+
 <h2 id="publications" class="section-heading">Selected Publications</h2>
 
 <div class="publications-list">
@@ -52,6 +94,7 @@ redirect_from:
 }</code></pre>
         </details>
         <a class="pub-btn" href="https://arxiv.org/abs/2602.17911" target="_blank">Paper</a>
+        <a class="pub-btn" href="https://huggingface.co/datasets/jashparekh/CondMedQA" target="_blank" rel="noopener">CondMedQA</a>
       </div>
     </div>
   </div>
@@ -81,6 +124,8 @@ redirect_from:
 }</code></pre>
         </details>
         <a class="pub-btn" href="https://arxiv.org/abs/2506.08364" target="_blank">Paper</a>
+        <a class="pub-btn" href="https://huggingface.co/datasets/jashparekh/bitcoin-price-explosion-qa" target="_blank" rel="noopener">Bitcoin QA</a>
+        <a class="pub-btn" href="https://huggingface.co/datasets/jashparekh/gaucher-disease-qa" target="_blank" rel="noopener">Gaucher QA</a>
       </div>
     </div>
   </div>
