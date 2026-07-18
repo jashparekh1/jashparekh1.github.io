@@ -1,5 +1,13 @@
 {% include base_path %}
 
+<!-- MapMyVisitors map widget: static in the page flow (scrolls with the page), right-aligned -->
+<style>
+  #mmvst_map_wrap #mapmyvisitors-widget { display: inline-block !important; min-height: 0 !important; vertical-align: top; }
+</style>
+<div id="mmvst_map_wrap" style="width: 200px; height: auto; overflow: visible; line-height: 0; margin-left: auto; text-align: center;">
+  <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=i-3eR-yb8ki22H_fdrC8nnizczm_RnshAGluIkjWApQ&cl=ffffff&w=200&t=n"></script>
+</div>
+
 <div class="page__footer-copyright">
   &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}
 </div>
