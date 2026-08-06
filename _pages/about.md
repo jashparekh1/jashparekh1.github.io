@@ -21,6 +21,7 @@ redirect_from:
 
 <h2 id="news" class="section-heading">News</h2>
 
+<div class="news-scroll">
 <table class="news-table">
   <tbody>
     <tr>
@@ -70,6 +71,7 @@ redirect_from:
     </tr>
   </tbody>
 </table>
+</div>
 
 <h2 id="publications" class="section-heading">Selected Publications</h2>
 

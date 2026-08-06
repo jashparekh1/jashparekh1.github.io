@@ -119,9 +119,31 @@ body {
    News
    ========================================================================== */
 
+.news-scroll {
+  max-height: 250px; /* roughly the top 5 news items */
+  overflow-y: scroll;
+  margin-bottom: 1.5em;
+  padding-right: 0.5em;
+  scrollbar-width: thin;
+  scrollbar-color: #ccc transparent;
+
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 3px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+}
+
 .news-table {
   width: 100%;
-  margin-bottom: 1.5em;
+  margin-bottom: 0;
   border: none;
   border-collapse: collapse;
   font-size: 0.9em;
