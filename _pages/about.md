@@ -31,7 +31,7 @@ redirect_from:
     <tr>
       <td class="news-emoji">✈️</td>
       <td class="news-date">08.2026</td>
-      <td class="news-desc">Attending KDD '26 in Jeju, South Korea — come say hi!</td>
+      <td class="news-desc">Presenting CGR at KDD '26 in Jeju, South Korea — come say hi!</td>
     </tr>
     <tr>
       <td class="news-emoji">🚀</td>
