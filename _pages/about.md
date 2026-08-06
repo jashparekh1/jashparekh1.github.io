@@ -24,6 +24,16 @@ redirect_from:
 <table class="news-table">
   <tbody>
     <tr>
+      <td class="news-emoji">💡</td>
+      <td class="news-date">08.2026</td>
+      <td class="news-desc">Awarded a $5,000 Tinker Research Grant from Thinking Machines Lab to support my research on reasoning in language models</td>
+    </tr>
+    <tr>
+      <td class="news-emoji">✈️</td>
+      <td class="news-date">08.2026</td>
+      <td class="news-desc">Attending KDD '26 in Jeju, South Korea — come say hi!</td>
+    </tr>
+    <tr>
       <td class="news-emoji">🚀</td>
       <td class="news-date">05.2026</td>
       <td class="news-desc">Started as a Machine Learning Engineer Intern at Google (YouTube Discovery)</td>
