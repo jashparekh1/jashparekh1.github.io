@@ -25,7 +25,7 @@ redirect_from:
 <table class="news-table">
   <tbody>
     <tr>
-      <td class="news-emoji">📄</td>
+      <td class="news-emoji"><i class="fas fa-paper-plane"></i></td>
       <td class="news-date">08.2026</td>
       <td class="news-desc">Awarded a $5,000 Tinker Research Grant from Thinking Machines Lab to support my research on reasoning in language models</td>
     </tr>
@@ -40,7 +40,7 @@ redirect_from:
       <td class="news-desc">Started as a Machine Learning Engineer Intern at Google (YouTube Discovery)</td>
     </tr>
     <tr>
-      <td class="news-emoji">📄</td>
+      <td class="news-emoji"><i class="fas fa-paper-plane"></i></td>
       <td class="news-date">05.2026</td>
       <td class="news-desc">Condition-Gated Reasoning (CGR) accepted as an <strong>Oral</strong> at KDD '26!</td>
     </tr>
@@ -60,7 +60,7 @@ redirect_from:
       <td class="news-desc">Started my MS in Computer Science at UIUC, advised by Prof. Jiawei Han</td>
     </tr>
     <tr>
-      <td class="news-emoji">📄</td>
+      <td class="news-emoji"><i class="fas fa-paper-plane"></i></td>
       <td class="news-date">04.2025</td>
       <td class="news-desc">Care-Pilot paper published at CHI '25</td>
     </tr>
