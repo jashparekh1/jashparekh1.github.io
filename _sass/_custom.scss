@@ -169,6 +169,20 @@ body {
     white-space: nowrap;
   }
 
+  /* Pastel category icons: paper-plane = accepted papers,
+     microphone = talks, circle-nodes = everything else */
+  .news-icon-paper {
+    color: #d69c6c;
+  }
+
+  .news-icon-talk {
+    color: #cc8080;
+  }
+
+  .news-icon-misc {
+    color: #bc8f8f;
+  }
+
   .news-date {
     width: 1%;
     white-space: nowrap;
