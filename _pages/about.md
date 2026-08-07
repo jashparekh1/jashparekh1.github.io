@@ -30,12 +30,12 @@ redirect_from:
       <td class="news-desc">Awarded a $5,000 Tinker Research Grant from Thinking Machines Lab to support my research on reasoning in language models</td>
     </tr>
     <tr>
-      <td class="news-emoji">🎤</td>
+      <td class="news-emoji"><i class="fas fa-microphone"></i></td>
       <td class="news-date">08.2026</td>
       <td class="news-desc">Presenting CGR at KDD '26 in Jeju, South Korea — come say hi!</td>
     </tr>
     <tr>
-      <td class="news-emoji">📍</td>
+      <td class="news-emoji"><i class="fas fa-location-dot"></i></td>
       <td class="news-date">05.2026</td>
       <td class="news-desc">Started as a Machine Learning Engineer Intern at Google (YouTube Discovery)</td>
     </tr>
@@ -45,17 +45,17 @@ redirect_from:
       <td class="news-desc">Condition-Gated Reasoning (CGR) accepted as an <strong>Oral</strong> at KDD '26!</td>
     </tr>
     <tr>
-      <td class="news-emoji">🎤</td>
+      <td class="news-emoji"><i class="fas fa-microphone"></i></td>
       <td class="news-date">03.2026</td>
       <td class="news-desc">Invited talk at the National Institutes of Health (NIH): <em>"Condition-Gated Reasoning for Context-Dependent Biomedical Question Answering"</em></td>
     </tr>
     <tr>
-      <td class="news-emoji">🎤</td>
+      <td class="news-emoji"><i class="fas fa-microphone"></i></td>
       <td class="news-date">10.2025</td>
       <td class="news-desc">Guest lecture in CS598 (UIUC): <em>"Structure-Augmented Reasoning Generation"</em></td>
     </tr>
     <tr>
-      <td class="news-emoji">📍</td>
+      <td class="news-emoji"><i class="fas fa-location-dot"></i></td>
       <td class="news-date">08.2025</td>
       <td class="news-desc">Started my MS in Computer Science at UIUC, advised by Prof. Jiawei Han</td>
     </tr>
@@ -65,7 +65,7 @@ redirect_from:
       <td class="news-desc">Care-Pilot paper published at CHI '25</td>
     </tr>
     <tr>
-      <td class="news-emoji">📍</td>
+      <td class="news-emoji"><i class="fas fa-location-dot"></i></td>
       <td class="news-date">01.2025</td>
       <td class="news-desc">Started as a Software Engineer Intern at NVIDIA (Autonomous Vehicle Evaluation)</td>
     </tr>
