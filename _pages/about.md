@@ -35,6 +35,11 @@ redirect_from:
       <td class="news-desc">Presenting CGR at KDD '26 in Jeju, South Korea — come say hi!</td>
     </tr>
     <tr>
+      <td class="news-emoji"><i class="fas fa-paper-plane news-icon-paper"></i></td>
+      <td class="news-date">06.2026</td>
+      <td class="news-desc"><em>AI-Mediated Negotiation: Design Reflections and Lessons</em> accepted at CSCW '26!</td>
+    </tr>
+    <tr>
       <td class="news-emoji"><i class="fas fa-circle-nodes news-icon-misc"></i></td>
       <td class="news-date">05.2026</td>
       <td class="news-desc">Started as a Machine Learning Engineer Intern at Google (YouTube Discovery)</td>
