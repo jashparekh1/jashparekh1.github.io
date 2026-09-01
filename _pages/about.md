@@ -37,7 +37,7 @@ redirect_from:
     <tr>
       <td class="news-emoji"><i class="fas fa-paper-plane news-icon-paper"></i></td>
       <td class="news-date">06.2026</td>
-      <td class="news-desc"><em>AI-Mediated Negotiation: Design Reflections and Lessons</em> accepted at CSCW '26!</td>
+      <td class="news-desc">AI-Mediated Negotiation: Design Reflections and Lessons accepted at CSCW '26!</td>
     </tr>
     <tr>
       <td class="news-emoji"><i class="fas fa-circle-nodes news-icon-misc"></i></td>
