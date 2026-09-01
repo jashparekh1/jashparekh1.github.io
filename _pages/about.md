@@ -112,7 +112,7 @@ redirect_from:
         </details>
         <a class="pub-btn" href="https://arxiv.org/abs/2602.17911" target="_blank">Paper</a>
         <a class="pub-btn" href="https://huggingface.co/datasets/jashparekh/CondMedQA" target="_blank" rel="noopener">CondMedQA</a>
-        <a class="pub-btn" href="{{ base_path }}/images/publications/cgr_poster.pdf" target="_blank">Poster</a>
+        <a class="pub-btn" href="{{ base_path }}/files/cgr_poster.pdf" target="_blank">Poster</a>
         <a class="pub-btn" href="{{ base_path }}/files/cgr_presentation.pdf" target="_blank">Slides</a>
       </div>
     </div>
