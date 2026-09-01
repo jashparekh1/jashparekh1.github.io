@@ -47,43 +47,4 @@ author_profile: true
     </div>
   </div>
 
-  <div class="exp-entry">
-    <div class="exp-logo">
-      <img src="/images/experience/ligadata.jpeg" alt="LigaData" />
-    </div>
-    <div class="exp-text">
-      <div class="exp-header">
-        <div class="exp-role">Software Engineer Intern</div>
-        <div class="exp-date">05.2023 &ndash; 08.2023</div>
-      </div>
-      <div class="exp-tagline">Anomaly Detection</div>
-    </div>
-  </div>
-
-  <div class="exp-entry">
-    <div class="exp-logo">
-      <img src="/images/experience/ameren.jpeg" alt="Ameren" />
-    </div>
-    <div class="exp-text">
-      <div class="exp-header">
-        <div class="exp-role">Software Engineer Intern</div>
-        <div class="exp-date">05.2022 &ndash; 08.2022</div>
-      </div>
-      <div class="exp-tagline">Energy Prediction and Load Optimization</div>
-    </div>
-  </div>
-
-  <div class="exp-entry">
-    <div class="exp-logo">
-      <img src="/images/experience/sig.png" alt="Spatial Informatics Group" />
-    </div>
-    <div class="exp-text">
-      <div class="exp-header">
-        <div class="exp-role">Research Scientist</div>
-        <div class="exp-date">04.2020 &ndash; 08.2021</div>
-      </div>
-      <div class="exp-tagline">Deep Neural Networks for Remote Sensing</div>
-    </div>
-  </div>
-
 </div>
