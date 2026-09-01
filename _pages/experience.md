@@ -17,7 +17,7 @@ author_profile: true
         <div class="exp-role">Machine Learning Engineer Intern</div>
         <div class="exp-date">05.2026 &ndash; 08.2026</div>
       </div>
-      <div class="exp-tagline">YouTube Discovery</div>
+      <div class="exp-tagline">YouTube Recommendations</div>
     </div>
   </div>
 

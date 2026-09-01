@@ -42,7 +42,7 @@ redirect_from:
     <tr>
       <td class="news-emoji"><i class="fas fa-circle-nodes news-icon-misc"></i></td>
       <td class="news-date">05.2026</td>
-      <td class="news-desc">Started as a Machine Learning Engineer Intern at Google (YouTube Discovery)</td>
+      <td class="news-desc">Started as a Machine Learning Engineer Intern at Google (YouTube Recommendations)</td>
     </tr>
     <tr>
       <td class="news-emoji"><i class="fas fa-paper-plane news-icon-paper"></i></td>
@@ -230,7 +230,7 @@ redirect_from:
         <div class="exp-role">Machine Learning Engineer Intern</div>
         <div class="exp-date">05.2026 &ndash; 08.2026</div>
       </div>
-      <div class="exp-tagline">YouTube Discovery</div>
+      <div class="exp-tagline">YouTube Recommendations</div>
     </div>
   </div>
 
