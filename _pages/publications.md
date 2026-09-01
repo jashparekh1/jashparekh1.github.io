@@ -1,14 +1,12 @@
 ---
 permalink: /publications/
-title: "Publications"
+title: ""
 author_profile: true
 ---
 
 {% include base_path %}
 
 <div class="publications-list">
-
-  <h2 class="section-heading">Preprints</h2>
 
   <div class="pub-entry">
     <div class="pub-img-col">
@@ -35,6 +33,39 @@ author_profile: true
 }</code></pre>
         </details>
         <a class="pub-btn" href="https://arxiv.org/pdf/2605.12975" target="_blank">Paper</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="pub-entry">
+    <div class="pub-img-col">
+      <div class="pub-badges-row">
+        <span class="pub-venue-badge">KDD '26</span>
+        <span class="pub-tag pub-tag-oral">Oral</span>
+      </div>
+      <a class="pub-img-link" href="{{ base_path }}/images/publications/cgr.png">
+        <img src="{{ base_path }}/images/publications/cgr.png" alt="Condition-Gated Reasoning for Context-Dependent Biomedical Question Answering" />
+      </a>
+    </div>
+    <div class="pub-text">
+      <div class="pub-title">Condition-Gated Reasoning for Context-Dependent Biomedical Question Answering</div>
+      <div class="pub-authors"><strong class="me">Jash Parekh</strong>, <a class="coauthor-link" href="https://wonbinkweon.github.io/">Wonbin Kweon</a>, <a class="coauthor-link" href="https://www.linkedin.com/in/joey-chan-b83444192/">Joey Chan</a>, <a class="coauthor-link" href="https://www.linkedin.com/in/rezarta-islamaj-ms-phd-00b9591/">Rezarta Islamaj</a>, <a class="coauthor-link" href="https://www.linkedin.com/in/robert-leaman-6233986/">Robert Leaman</a>, <a class="coauthor-link" href="https://pat-jj.github.io/">Pengcheng Jiang</a>, <a class="coauthor-link" href="https://www.linkedin.com/in/chih-hsuan-wei-a06520257/">Chih-Hsuan Wei</a>, <a class="coauthor-link" href="https://www.linkedin.com/in/zhizheng-wang-004071310/">Zhizheng Wang</a>, <a class="coauthor-link" href="https://www.ncbi.nlm.nih.gov/research/bionlp/Zhiyong-Lu">Zhiyong Lu</a>, <a class="coauthor-link" href="https://hanj.cs.illinois.edu/">Jiawei Han</a></div>
+      <div class="pub-venue"><em>In Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining</em></div>
+      <div class="pub-links">
+        <details class="pub-abs">
+          <summary>Abs</summary>
+          <p>Current biomedical question answering (QA) systems often assume that medical knowledge applies uniformly, yet real-world clinical reasoning is inherently conditional: nearly every decision depends on patient-specific factors such as comorbidities and contraindications. Existing benchmarks do not evaluate such conditional reasoning, and retrieval-augmented or graph-based methods lack explicit mechanisms to ensure that retrieved knowledge is applicable to given context. To address this gap, we propose CondMedQA, the first benchmark for conditional biomedical QA, consisting of multi-hop questions whose answers vary with patient conditions. Furthermore, we propose Condition-Gated Reasoning (CGR), a novel framework that constructs condition-aware knowledge graphs and selectively activates or prunes reasoning paths based on query conditions. Our findings show that CGR more reliably selects condition-appropriate answers while matching or exceeding state-of-the-art performance on biomedical QA benchmarks, highlighting the importance of explicitly modeling conditionality for robust medical reasoning.</p>
+        </details>
+        <details class="pub-cite">
+          <summary>Bib</summary>
+          <pre><code>@article{parekh2026condition,
+  title={Condition-Gated Reasoning for Context-Dependent Biomedical Question Answering},
+  author={Parekh, Jash Rajesh and Kweon, Wonbin and Chan, Joey and Islamaj, Rezarta and Leaman, Robert and Jiang, Pengcheng and Wei, Chih-Hsuan and Wang, Zhizheng and Lu, Zhiyong and Han, Jiawei},
+  journal={arXiv preprint arXiv:2602.17911},
+  year={2026}
+}</code></pre>
+        </details>
+        <a class="pub-btn" href="https://arxiv.org/abs/2602.17911" target="_blank">Paper</a>
       </div>
     </div>
   </div>
@@ -126,43 +157,6 @@ author_profile: true
     </div>
   </div>
 
-  <h2 class="section-heading">2026</h2>
-
-  <div class="pub-entry">
-    <div class="pub-img-col">
-      <div class="pub-badges-row">
-        <span class="pub-venue-badge">KDD '26</span>
-        <span class="pub-tag pub-tag-oral">Oral</span>
-      </div>
-      <a class="pub-img-link" href="{{ base_path }}/images/publications/cgr.png">
-        <img src="{{ base_path }}/images/publications/cgr.png" alt="Condition-Gated Reasoning for Context-Dependent Biomedical Question Answering" />
-      </a>
-    </div>
-    <div class="pub-text">
-      <div class="pub-title">Condition-Gated Reasoning for Context-Dependent Biomedical Question Answering</div>
-      <div class="pub-authors"><strong class="me">Jash Parekh</strong>, <a class="coauthor-link" href="https://wonbinkweon.github.io/">Wonbin Kweon</a>, <a class="coauthor-link" href="https://www.linkedin.com/in/joey-chan-b83444192/">Joey Chan</a>, <a class="coauthor-link" href="https://www.linkedin.com/in/rezarta-islamaj-ms-phd-00b9591/">Rezarta Islamaj</a>, <a class="coauthor-link" href="https://www.linkedin.com/in/robert-leaman-6233986/">Robert Leaman</a>, <a class="coauthor-link" href="https://pat-jj.github.io/">Pengcheng Jiang</a>, <a class="coauthor-link" href="https://www.linkedin.com/in/chih-hsuan-wei-a06520257/">Chih-Hsuan Wei</a>, <a class="coauthor-link" href="https://www.linkedin.com/in/zhizheng-wang-004071310/">Zhizheng Wang</a>, <a class="coauthor-link" href="https://www.ncbi.nlm.nih.gov/research/bionlp/Zhiyong-Lu">Zhiyong Lu</a>, <a class="coauthor-link" href="https://hanj.cs.illinois.edu/">Jiawei Han</a></div>
-      <div class="pub-venue"><em>In Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining</em></div>
-      <div class="pub-links">
-        <details class="pub-abs">
-          <summary>Abs</summary>
-          <p>Current biomedical question answering (QA) systems often assume that medical knowledge applies uniformly, yet real-world clinical reasoning is inherently conditional: nearly every decision depends on patient-specific factors such as comorbidities and contraindications. Existing benchmarks do not evaluate such conditional reasoning, and retrieval-augmented or graph-based methods lack explicit mechanisms to ensure that retrieved knowledge is applicable to given context. To address this gap, we propose CondMedQA, the first benchmark for conditional biomedical QA, consisting of multi-hop questions whose answers vary with patient conditions. Furthermore, we propose Condition-Gated Reasoning (CGR), a novel framework that constructs condition-aware knowledge graphs and selectively activates or prunes reasoning paths based on query conditions. Our findings show that CGR more reliably selects condition-appropriate answers while matching or exceeding state-of-the-art performance on biomedical QA benchmarks, highlighting the importance of explicitly modeling conditionality for robust medical reasoning.</p>
-        </details>
-        <details class="pub-cite">
-          <summary>Bib</summary>
-          <pre><code>@article{parekh2026condition,
-  title={Condition-Gated Reasoning for Context-Dependent Biomedical Question Answering},
-  author={Parekh, Jash Rajesh and Kweon, Wonbin and Chan, Joey and Islamaj, Rezarta and Leaman, Robert and Jiang, Pengcheng and Wei, Chih-Hsuan and Wang, Zhizheng and Lu, Zhiyong and Han, Jiawei},
-  journal={arXiv preprint arXiv:2602.17911},
-  year={2026}
-}</code></pre>
-        </details>
-        <a class="pub-btn" href="https://arxiv.org/abs/2602.17911" target="_blank">Paper</a>
-      </div>
-    </div>
-  </div>
-
-  <h2 class="section-heading">2025</h2>
-
   <div class="pub-entry">
     <div class="pub-img-col">
       <span class="pub-venue-badge">CHI '25</span>
@@ -193,8 +187,6 @@ author_profile: true
       </div>
     </div>
   </div>
-
-  <h2 class="section-heading">2021</h2>
 
   <div class="pub-entry">
     <div class="pub-img-col">
