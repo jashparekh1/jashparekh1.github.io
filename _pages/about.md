@@ -257,6 +257,9 @@ redirect_from:
 
 
 <script>
+  /* jQuery loads at the end of the body, so only vanilla JS is safe here
+     until the window load event has fired. */
+
   // Show exactly the top 5 news items; scroll for the rest.
   function sizeNewsScroll() {
     var rows = document.querySelectorAll('.news-table tbody tr');
@@ -264,10 +267,12 @@ redirect_from:
       document.querySelector('.news-scroll').style.maxHeight = rows[5].offsetTop + 'px';
     }
   }
-  $(window).on('load', sizeNewsScroll);
-  $(window).on('resize', sizeNewsScroll);
+  document.addEventListener('DOMContentLoaded', sizeNewsScroll);
+  window.addEventListener('load', sizeNewsScroll);
+  window.addEventListener('resize', sizeNewsScroll);
 
-  $(document).ready(function() {
+  window.addEventListener('load', function() {
+    if (!window.jQuery) return;
     $('.pub-img-link').magnificPopup({
       type: 'image',
       closeOnContentClick: true,

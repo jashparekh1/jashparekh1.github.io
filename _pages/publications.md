@@ -11,6 +11,59 @@ author_profile: true
   <div class="pub-entry">
     <div class="pub-img-col">
       <span class="pub-venue-badge">Under Review</span>
+    </div>
+    <div class="pub-text">
+      <div class="pub-title">EnSI-RAG: Entity-Structure-Indexed Retrieval-Augmented Generation for Long-Document Question Answering</div>
+      <div class="pub-authors">Xuanyu Meng, <a class="coauthor-link" href="https://gasolsun36.github.io/">Jiashuo Sun</a>, <strong class="me">Jash Parekh</strong>, <a class="coauthor-link" href="https://hanj.cs.illinois.edu/">Jiawei Han</a></div>
+      <div class="pub-links">
+        <details class="pub-abs">
+          <summary>Abs</summary>
+          <p>Question answering (QA) over long, connected documents remains challenging because relevant evidence may span multiple entities and their relationships. Existing retrieval-augmented generation (RAG) methods typically index documents as raw chunks and retrieve them through embedding similarity. Their performance degrades when chunk boundaries separate entities from supporting evidence or when a question requires multi-hop reasoning across the corpus. We propose EnSI-RAG (Entity-Structure-Indexed Retrieval-Augmented Generation), a framework that constructs a query-independent, entity-centered index. Each record ⟨e, t, k, v⟩ represents an entity e, its type t, a semantic category k ∈ {property, relation, aspect}, and a value v, while retaining links to the original source passages. At query time, these records serve as retrieval handles, and an LLM synthesizes the retrieved passages into the final answer. This design separates evidence localization from answer synthesis while preserving traceable source evidence. Across Loong and Oolong, EnSI-RAG achieves an average accuracy of 78.24. Relative to the published baseline scores used as references, this is 6.62 points higher, suggesting its effectiveness across these settings.</p>
+        </details>
+        <details class="pub-cite">
+          <summary>Bib</summary>
+          <pre><code>@article{meng2026ensi,
+  title={EnSI-RAG: Entity-Structure-Indexed Retrieval-Augmented Generation for Long-Document Question Answering},
+  author={Meng, Xuanyu and Sun, Jiashuo and Parekh, Jash Rajesh and Han, Jiawei},
+  journal={arXiv preprint arXiv:2608.21252},
+  year={2026}
+}</code></pre>
+        </details>
+        <a class="pub-btn" href="https://arxiv.org/abs/2608.21252" target="_blank">Paper</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="pub-entry">
+    <div class="pub-img-col">
+      <span class="pub-venue-badge">CSCW '26</span>
+    </div>
+    <div class="pub-text">
+      <div class="pub-title">AI-Mediated Negotiation: Design Reflections and Lessons</div>
+      <div class="pub-authors"><a class="coauthor-link" href="https://www.linkedin.com/in/veda-duddu/">Veda Duddu</a>, <strong class="me">Jash Parekh</strong>, <a class="coauthor-link" href="https://www.linkedin.com/in/hanqi-mao-a1251b2bb/">Andy Mao</a>, <a class="coauthor-link" href="https://ler.illinois.edu/directory/haylee-min/">Hanyi Min</a>, <a class="coauthor-link" href="https://www.ziangxiao.com/">Ziang Xiao</a>, <a class="coauthor-link" href="https://vedantdasswain.com/">Vedant Das Swain</a>, <a class="coauthor-link" href="https://koustuv.com/">Koustuv Saha</a></div>
+      <div class="pub-venue"><em>In Proceedings of the 29th ACM Conference on Computer-Supported Cooperative Work and Social Computing</em></div>
+      <div class="pub-links">
+        <details class="pub-abs">
+          <summary>Abs</summary>
+          <p>Conversational AI promises a new kind of preparation for high-stakes workplace negotiations—personalized, interactive, and capable of simulating realistic resistance. That promise is intuitive. We built Trucey, a theory-driven coaching system to test it. The system encoded four assumptions: that articulation supports clarification, that personalization builds strategic competence, that chunked delivery reduces cognitive load, and that structured scaffolding removes metacognitive burden. A pre-registered experiment (N=267) and interviews (N=15) complicated each of them. Notably, the static handbook we included as a passive control outperformed both AI conditions on empowerment and usability. We reflect on why: each assumption encoded a specific model of how preparation unfolds, and the findings revealed that conversational AI imposes a linear execution model on a task that is fundamentally recursive. We identify an unexamined scope condition on established HAI design guidelines and close with a sequencing principle—map before path, path before simulation—for future AI coaching design.</p>
+        </details>
+        <details class="pub-cite">
+          <summary>Bib</summary>
+          <pre><code>@inproceedings{duddu2026ai,
+  title={AI-Mediated Negotiation: Design Reflections and Lessons},
+  author={Duddu, Veda and Parekh, Jash Rajesh and Mao, Andy and Min, Hanyi and Xiao, Ziang and Swain, Vedant Das and Saha, Koustuv},
+  booktitle={Proceedings of the 29th ACM Conference on Computer-Supported Cooperative Work and Social Computing},
+  year={2026}
+}</code></pre>
+        </details>
+        <a class="pub-btn" href="https://arxiv.org/pdf/2606.21886" target="_blank">Paper</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="pub-entry">
+    <div class="pub-img-col">
+      <span class="pub-venue-badge">Under Review</span>
       <a class="pub-img-link" href="{{ base_path }}/images/publications/pyrag.png">
         <img src="{{ base_path }}/images/publications/pyrag.png" alt="Retrieval is Cheap, Show Me the Code: Executable Multi-Hop Reasoning for Retrieval-Augmented Generation" />
       </a>
@@ -225,7 +278,9 @@ author_profile: true
 </div>
 
 <script>
-  $(document).ready(function() {
+  /* jQuery loads at the end of the body — wait for window load. */
+  window.addEventListener('load', function() {
+    if (!window.jQuery) return;
     $('.pub-img-link').magnificPopup({
       type: 'image',
       closeOnContentClick: true,

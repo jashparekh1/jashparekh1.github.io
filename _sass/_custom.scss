@@ -81,7 +81,10 @@ body {
 }
 
 .sidebar .author__name {
-  font-weight: 400;
+  font-size: 1.2em;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: #222;
 }
 
 .author__social-icons {
@@ -92,12 +95,28 @@ body {
     display: inline-block;
     margin: 0 0.4em;
     font-size: 1.25em;
-    color: #555;
-    transition: color 0.15s ease;
+    transition: opacity 0.15s ease;
 
     &:hover {
-      color: $link-color;
+      opacity: 0.7;
     }
+  }
+
+  /* brand colors */
+  .fa-envelope {
+    color: #ea4335;
+  }
+
+  .ai-google-scholar {
+    color: #4285f4;
+  }
+
+  .fa-github {
+    color: #171516;
+  }
+
+  .fa-linkedin {
+    color: #0a66c2;
   }
 }
 
@@ -139,7 +158,7 @@ body {
    ========================================================================== */
 
 .news-scroll {
-  max-height: 250px; /* roughly the top 5 news items */
+  max-height: 150px; /* ~5 rows fallback; JS sets the exact 5-row height */
   overflow-y: scroll;
   margin-bottom: 1.5em;
   padding-right: 0.5em;
