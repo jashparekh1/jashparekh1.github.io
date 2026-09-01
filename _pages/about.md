@@ -257,6 +257,16 @@ redirect_from:
 
 
 <script>
+  // Show exactly the top 5 news items; scroll for the rest.
+  function sizeNewsScroll() {
+    var rows = document.querySelectorAll('.news-table tbody tr');
+    if (rows.length > 5) {
+      document.querySelector('.news-scroll').style.maxHeight = rows[5].offsetTop + 'px';
+    }
+  }
+  $(window).on('load', sizeNewsScroll);
+  $(window).on('resize', sizeNewsScroll);
+
   $(document).ready(function() {
     $('.pub-img-link').magnificPopup({
       type: 'image',

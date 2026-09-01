@@ -4,7 +4,17 @@
 
 .page {
   @include breakpoint($large) {
-    @include suffix(0.5 of 12);
+    @include prefix(0.25 of 12);
+    @include suffix(0 of 12);
+  }
+}
+
+/* Masthead nav links — black, understated */
+.greedy-nav a {
+  color: #222;
+
+  &:hover {
+    color: #555;
   }
 }
 
@@ -238,11 +248,8 @@ body {
   flex-direction: column;
   align-items: flex-start;
   gap: 0.4em;
-  align-self: center;
-
-  @media (max-width: $medium) {
-    align-self: flex-start;
-  }
+  align-self: flex-start;
+  padding-top: 0.15em; /* optically align badge with title cap height */
 }
 
 .pub-img-link {
@@ -307,10 +314,9 @@ body {
 }
 
 .pub-authors {
-  font-size: 0.88em;
+  font-size: 0.82em;
   margin-top: 0.25em;
   color: #222;
-  letter-spacing: 0.01em;
 
   strong,
   .me {
