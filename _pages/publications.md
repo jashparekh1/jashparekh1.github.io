@@ -11,6 +11,9 @@ author_profile: true
   <div class="pub-entry">
     <div class="pub-img-col">
       <span class="pub-venue-badge">Under Review</span>
+      <a class="pub-img-link" href="{{ base_path }}/images/publications/ensi-rag.png">
+        <img src="{{ base_path }}/images/publications/ensi-rag.png" alt="EnSI-RAG: Entity-Structure-Indexed Retrieval-Augmented Generation for Long-Document Question Answering" />
+      </a>
     </div>
     <div class="pub-text">
       <div class="pub-title">EnSI-RAG: Entity-Structure-Indexed Retrieval-Augmented Generation for Long-Document Question Answering</div>
@@ -37,6 +40,9 @@ author_profile: true
   <div class="pub-entry">
     <div class="pub-img-col">
       <span class="pub-venue-badge">CSCW '26</span>
+      <a class="pub-img-link" href="{{ base_path }}/images/publications/cscw_2026.png">
+        <img src="{{ base_path }}/images/publications/cscw_2026.png" alt="AI-Mediated Negotiation: Design Reflections and Lessons" />
+      </a>
     </div>
     <div class="pub-text">
       <div class="pub-title">AI-Mediated Negotiation: Design Reflections and Lessons</div>
