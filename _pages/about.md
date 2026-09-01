@@ -67,7 +67,7 @@ redirect_from:
     <tr>
       <td class="news-emoji"><i class="fas fa-paper-plane news-icon-paper"></i></td>
       <td class="news-date">04.2025</td>
-      <td class="news-desc">Care-Pilot paper published at CHI '25</td>
+      <td class="news-desc">AI on my Shoulder: Supporting Emotional Labor in Front-Office Roles with an LLM-Based Empathetic Coworker published at CHI '25</td>
     </tr>
     <tr>
       <td class="news-emoji"><i class="fas fa-circle-nodes news-icon-misc"></i></td>
@@ -103,10 +103,11 @@ redirect_from:
         </details>
         <details class="pub-cite">
           <summary>Bib</summary>
-          <pre><code>@article{parekh2026condition,
+          <pre><code>@inproceedings{parekh2026condition,
   title={Condition-Gated Reasoning for Context-Dependent Biomedical Question Answering},
   author={Parekh, Jash Rajesh and Kweon, Wonbin and Chan, Joey and Islamaj, Rezarta and Leaman, Robert and Jiang, Pengcheng and Wei, Chih-Hsuan and Wang, Zhizheng and Lu, Zhiyong and Han, Jiawei},
-  journal={arXiv preprint arXiv:2602.17911},
+  booktitle={Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V. 2},
+  pages={11774--11785},
   year={2026}
 }</code></pre>
         </details>

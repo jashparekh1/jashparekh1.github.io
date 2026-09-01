@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Jash Parekh"
 title_separator          : "-"
 name                     : &name "Jash Parekh"
-description              : &description "personal description"
+description              : &description "MS student in Computer Science at UIUC researching reasoning-augmented LLM systems, advised by Prof. Jiawei Han."
 url                      : https://jashparekh1.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "jashparekh1/jashparekh1.github.io"
@@ -213,17 +213,13 @@ kramdown:
 # These settings control the types of collections used by the template
 collections:
   teaching:
-    output: true
-    permalink: /:collection/:path/
+    output: false
   publications:
-    output: true
-    permalink: /:collection/:path/
+    output: false
   portfolio:
-    output: true
-    permalink: /:collection/:path/
+    output: false
   talks:
-    output: true
-    permalink: /:collection/:path/
+    output: false
 
 
 # These settings control how pages and collections are included in the site
